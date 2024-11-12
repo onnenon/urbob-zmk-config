@@ -11,13 +11,19 @@
 			bindings = <&studio_unlock>;
 		};
 		
-		combo_enable_ent {
+		combo_enable_one_two {
 			timeout-ms = <50>;
 			key-positions = <0 1>;
 			bindings = <&kp ENTER>;
 		};
+
+		combo_enable_two_three {
+			timeout-ms = <50>;
+			key-positions = <1 2>;
+			bindings = <&kp >;
+		};
 		
-		combo_enable_bk {
+		combo_enable_three_four {
 			timeout-ms = <50>;
 			key-positions = <2 3>;
 			bindings = <&kp BACKSPACE>;
