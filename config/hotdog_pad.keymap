@@ -16,6 +16,12 @@
       key-positions = <0 1>;
       bindings = <&kp ENTER>;
     };
+
+    combo_enable_bk {
+      timeout-ms = <50>;
+      key-positions = <0 1>;
+      bindings = <&kp BACKSPACE>;
+    };
   };
 
   keymap {
