@@ -6,10 +6,9 @@
     compatible = "zmk,combos";
 
     combo_enable_studio {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <0 1>;
-    //   bindings = <&studio_unlock>;
-      bindings = <&kp N8>;
+      bindings = <&studio_unlock>;
     };
   };
 
@@ -22,7 +21,7 @@
         &kp N2 
         &kp N3 
         &kp N4 
-        &kp N5 
+        &kp C_MUTE
         >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
