@@ -17,14 +17,14 @@
 
     base {
       bindings = < 
-        &kp N9 
-        &kp N8 
-        &kp N7 
-        &kp N6 
+        &kp N1 
+        &kp N2 
+        &kp N3 
+        &kp N4 
         &kp N5 
         >;
 
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp N6 N7>;
     };
   };
 };
