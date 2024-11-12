@@ -20,7 +20,7 @@
 		combo_enable_two_three {
 			timeout-ms = <50>;
 			key-positions = <1 2>;
-			bindings = <&kp >;
+			bindings = <&kp ENTER>;
 		};
 		
 		combo_enable_three_four {
