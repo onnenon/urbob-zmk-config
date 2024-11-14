@@ -24,8 +24,8 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: duckyb
+      url-base: https://github.com/duckyb
 
   projects:
     - name: zmk-helpers
@@ -40,6 +40,9 @@ manifest:
     - name: hotdog_pad
       revision: main
       remote: onnenon
+    - name: urchin-zmk-module
+      remote: duckyb
+      revision: main
 
     # ZMK with Zephyr namespaced under /zmk. This requires that ZMK imports
     # Zephyr with a path other than `zephyr` (as in `going-modular`).
