@@ -1,3 +1,4 @@
+// clang-format off
 /*                KEY POSITIONS
 
 ╭─────────────────────╮ ╭─────────────────────╮
@@ -7,6 +8,7 @@
 ╰───────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────╯
 ╰─────────────╯ ╰─────────────╯
 */
+// clang-format on
 
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
