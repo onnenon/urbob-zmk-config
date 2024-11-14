@@ -31,9 +31,9 @@ include:
   #   shield: hotdog_pad
 
   - board: nice_nano_v2
-    shield: smallwave_sun nice_view_adapter  nice_view
+    shield: smallwave_left nice_view_adapter  nice_view
   - board: nice_nano_v2
-    shield: smallwave_moon nice_view_adapter nice_view
+    shield: smallwave_right nice_view_adapter nice_view
 
   - board: nice_nano_v2
     shield: settings_reset
