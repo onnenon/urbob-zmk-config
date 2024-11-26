@@ -38,4 +38,4 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
 
-  - board: [le_chiffre_stm32]
+  - board: le_chiffre_stm32
