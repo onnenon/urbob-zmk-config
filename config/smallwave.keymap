@@ -5,4 +5,4 @@
 #define CONFIG_WIRELESS
 
 /* source the main keymap */
-#include "base.keymap"
+#include "onnen_base.keymap"

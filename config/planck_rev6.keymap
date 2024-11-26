@@ -10,5 +10,5 @@
 #define X_RH  &smart_mouse U_WH_D U_WH_U // thumb row, right
 
 /* source the main keymap */
-#include "base.keymap"
+#include "onnen_base.keymap"
 
