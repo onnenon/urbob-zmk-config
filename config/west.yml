@@ -35,6 +35,9 @@ manifest:
     - name: zmk-tri-state
       revision: main
       path: modules/tri-state
+    - name: zmk-leader-key
+      revision: main
+      path: modules/leader-key
     - name: hotdog_pad
       revision: main
       remote: onnenon
@@ -49,6 +52,7 @@ manifest:
     # Zephyr with a path other than `zephyr` (as in `going-modular`).
     - name: zmk
       path: .
+      revision: main
       import:
         name-blocklist:
           - ci-tools
