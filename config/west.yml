@@ -44,9 +44,6 @@ manifest:
     - name: zmk-config-smallwave
       remote: onnenon
       revision: main
-    - name: le-chiffre-stm32-zmk-config
-      remote: onnenon
-      revision: main
 
     # ZMK with Zephyr namespaced under /zmk. This requires that ZMK imports
     # Zephyr with a path other than `zephyr` (as in `going-modular`).
