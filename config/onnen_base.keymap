@@ -1,6 +1,5 @@
 // clang-format off
 #include <behaviors.dtsi>
-#include <behaviors/leader_key.dtsi> 
 #include <behaviors/num_word.dtsi> // requires auto-layer module
 #include <dt-bindings/zmk/keys.h>
 #ifdef CONFIG_WIRELESS
