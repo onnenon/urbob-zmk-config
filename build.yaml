@@ -41,8 +41,7 @@ include:
   - board: nice_nano_v2
     shield: doodle_34_right nice_view_adapter nice_view
   - board: nice_nano_v2
-    # shield: doodle_34_dongle dongle_display
-    shield: doodle_34_dongle
+    shield: doodle_34_dongle dongle_display
 
 
   - board: nice_nano_v2
