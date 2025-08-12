@@ -28,6 +28,8 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
 
   projects:
     # This is vanilla ZMK - just using my remote to pin the current state of main,
@@ -57,6 +59,9 @@ manifest:
     - name: doodle_34
       revision: main
       remote: onnenon
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: main
 
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
