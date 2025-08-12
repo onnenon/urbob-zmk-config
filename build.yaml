@@ -44,10 +44,9 @@ include:
     shield: doodle_34_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: doodle_34_right nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano_v2
     shield: doodle_34_dongle dongle_display
-
+    snippet: zmk-usb-logging
 
   - board: nice_nano_v2
     shield: settings_reset
