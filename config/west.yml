@@ -67,7 +67,7 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: 2bb333f87136d33e94a49d86236ed9ec254a8060 # main (6/4/2026)
+      revision: main
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).
