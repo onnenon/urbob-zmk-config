@@ -1,0 +1,56 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+	combos {
+		compatible = "zmk,combos";
+		
+		combo_enable_studio {
+			timeout-ms = <50>;
+			key-positions = <0 1 2>;
+			bindings = <&studio_unlock>;
+		};
+		
+		combo_enable_one_two {
+			timeout-ms = <50>;
+			key-positions = <0 1>;
+			bindings = <&studio_unlock>;
+		};
+		
+		combo_enable_two_three {
+			timeout-ms = <50>;
+			key-positions = <1 2>;
+			bindings = <&kp EXCLAMATION>;
+		};
+		
+		combo_enable_three_four {
+			timeout-ms = <50>;
+			key-positions = <2 3>;
+			bindings = <&kp BACKSPACE>;
+		};
+	};
+	
+	keymap {
+		compatible = "zmk,keymap";
+		
+		base {
+			bindings = <
+			&kp H
+			&kp O
+			&kp T
+			&kp D
+			&kp C_MUTE
+			>;
+			
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+		};
+		
+		extra1 {
+			status = "reserved";
+		};
+		
+		extra2 {
+			status = "reserved";
+		};
+	};
+};

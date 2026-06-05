@@ -22,10 +22,14 @@ manifest:
     # revision: v0.3 # Pin ZMK version
 
   remotes:
+    - name: onnenon
+      url-base: https://github.com/onnenon
     - name: urob
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
 
   projects:
     - name: zmk
@@ -52,6 +56,18 @@ manifest:
     - name: zmk-unicode
       path: modules/zmk/unicode
       revision: 1a6dbc797a46c4a61c3c71a7a9d013a5d5aee49e # main (4/19/2026)
+    - name: hotdog_pad
+      remote: onnenon
+      revision: main
+    - name: zmk-config-smallwave
+      remote: onnenon
+      revision: main
+    - name: doodle_34
+      remote: onnenon
+      revision: main
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: v0.3
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).
@@ -65,6 +81,7 @@ manifest:
           - hal_nordic
           - hal_rpi_pico
           - hal_stm32
+          - lvgl
           - mbedtls
           - tinycrypt
 
