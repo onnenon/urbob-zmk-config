@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right nice_view_adapter nice_view
 
   # - board: nice_nano
@@ -31,22 +31,22 @@ include:
   #   snippet: studio-rpc-usb-uart
   #   shield: hotdog_pad
 
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: smallwave_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: smallwave_right nice_view_adapter nice_view
 
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: doodle_34_left nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: doodle_34_left_with_dongle
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: doodle_34_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: doodle_34_right nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: doodle_34_dongle dongle_display
     snippet: zmk-usb-logging
 
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
